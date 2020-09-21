@@ -1,0 +1,118 @@
+Executed SetRestartOnClose=1
+
+[MCUXpresso Semihosting Telnet console for 'frdmk64f_lwip_httpclient_mbedTLS_freertos JLink Debug' started on port 63674 @ 127.0.0.1]
+
+SEGGER J-Link GDB Server V6.80d - Terminal output channel
+Initializing PHY...
+Getting IP address from DHCP ...
+
+ IPv4 Address     : 192.168.0.26
+DHCP OK
+  . testing MD...
+  . success with MD..
+  . Seeding the random number generator...  . Loading the CA root certificate ... ok (0 skipped)
+  . Loading the client cert. and key... ok
+Connecting to os.mbed.com/443  . Setting up the SSL/TLS structure...
+
+SSL state connect : 0  ok
+
+
+SSL state connect : 0   . Performing the SSL/TLS handshake...
+Verify requested for (Depth 3):
+cert. version     : 3
+serial number     : A7:0E:4A:4C:34:82:B7:7F
+issuer name       : C=US, O=Starfield Technologies, Inc., OU=Starfield Class 2 Certification Authority
+subject name      : C=US, ST=Arizona, L=Scottsdale, O=Starfield Technologies, Inc., CN=Starfield Services Root Certificate Authority - G2
+issued  on        : 2009-09-02 00:00:00
+expires on        : 2034-06-28 17:39:16
+signed using      : RSA with SHA-256
+RSA key size      : 2048 bits
+basic constraints : CA=true
+key usage         : Digital Signature, Key Cert Sign, CRL Sign
+cert. version     : 3
+serial number     : A7:0E:4A:4C:34:82:B7:7F
+issuer name       : C=US, O=Starfield Technologies, Inc., OU=Starfield Class 2 Certification Authority
+subject name      : C=US, ST=Arizona, L=Scottsdale, O=Starfield Technologies, Inc., CN=Starfield Services Root Certificate Authority - G2
+issued  on        : 2009-09-02 00:00:00
+expires on        : 2034-06-28 17:39:16
+signed using      : RSA with SHA-256
+RSA key size      : 2048 bits
+basic constraints : CA=true
+key usage         : Digital Signature, Key Cert Sign, CRL Sign
+cert. version     : 3
+serial number     : A7:0E:4A:4C:34:82:B7:7F
+issuer name       : C=US, O=Starfield Technologies, Inc., OU=Starfield Class 2 Certification Authority
+subject name      : C=US, ST=Arizona, L=Scottsdale, O=Starfield Technologies, Inc., CN=Starfield Services Root Certificate Authority - G2
+issued  on        : 2009-09-02 00:00:00
+expires on        : 2034-06-28 17:39:16
+signed using      : RSA with SHA-256
+RSA key size      : 2048 bits
+basic constraints : CA=true
+key usage         : Digital Signature, Key Cert Sign, CRL Sign
+
+
+Verify requested for (Depth 2):
+cert. version     : 3
+serial number     : 06:7F:94:4A:2A:27:CD:F3:FA:C2:AE:2B:01:F9:08:EE:B9:C4:C6
+issuer name       : C=US, ST=Arizona, L=Scottsdale, O=Starfield Technologies, Inc., CN=Starfield Services Root Certificate Authority - G2
+subject name      : C=US, O=Amazon, CN=Amazon Root CA 1
+issued  on        : 2015-05-25 12:00:00
+expires on        : 2037-12-31 01:00:00
+signed using      : RSA with SHA-256
+RSA key size      : 2048 bits
+basic constraints : CA=true
+key usage         : Digital Signature, Key Cert Sign, CRL Sign
+  This certificate has no flags
+
+Verify requested for (Depth 1):
+cert. version     : 3
+serial number     : 06:7F:94:57:85:87:E8:AC:77:DE:B2:53:32:5B:BC:99:8B:56:0D
+issuer name       : C=US, O=Amazon, CN=Amazon Root CA 1
+subject name      : C=US, O=Amazon, OU=Server CA 1B, CN=Amazon
+issued  on        : 2015-10-22 00:00:00
+expires on        : 2025-10-19 00:00:00
+signed using      : RSA with SHA-256
+RSA key size      : 2048 bits
+basic constraints : CA=true, max_pathlen=0
+key usage         : Digital Signature, Key Cert Sign, CRL Sign
+  This certificate has no flags
+
+Verify requested for (Depth 0):
+cert. version     : 3
+serial number     : 0E:C4:E8:0F:E7:9A:F7:08:AE:DB:64:73:C7:46:A9:EC
+issuer name       : C=US, O=Amazon, OU=Server CA 1B, CN=Amazon
+subject name      : CN=*.mbed.com
+issued  on        : 2020-05-12 00:00:00
+expires on        : 2021-06-12 12:00:00
+signed using      : RSA with SHA-256
+RSA key size      : 2048 bits
+basic constraints : CA=false
+subject alt name  : *.mbed.com, *.core.mbed.com, *.internal.mbed.com, *.pelion.com, *.mbed.org, mbed.com, core.mbed.com, internal.mbed.com, pelion.com, mbed.org
+key usage         : Digital Signature, Key Encipherment
+ext key usage     : TLS Web Server Authentication, TLS Web Client Authentication
+  This certificate has no flags
+ ok
+    [ Protocol is TLSv1.2 ]
+    [ Ciphersuite is TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256 ]
+    [ Record expansion is 29 ]
+  . Verifying peer X.509 certificate... Server Verification skipped
+  > Write to server: 74 bytes written
+
+GET /media/uploads/mbed_official/hello.txt HTTP/1.0
+HOST: os.mbed.com
+
+  < Read from server: 366 bytes read
+
+HTTP/1.1 200 OK
+Date: Sun, 20 Sep 2020 07:30:35 GMT
+Content-Type: text/plain
+Content-Length: 14
+Connection: close
+Last-Modified: Sat, 17 Nov 2018 12:02:53 GMT
+ETag: "5bf0036d-e"
+Expires: Sun, 20 Sep 2020 17:30:35 GMT
+Cache-Control: max-age=36000
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+Hello world!

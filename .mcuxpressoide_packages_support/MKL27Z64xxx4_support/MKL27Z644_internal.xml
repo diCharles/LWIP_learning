@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE infoList
+  SYSTEM "crt_infolist.dtd">
+<infoList vendor="NXP">
+   <info name="MKL27Z64xxx4" chip="MKL27Z64xxx4">
+      <chip>
+         <name>MKL27Z64xxx4</name>
+         <family>KL2x</family>
+         <vendor>NXP</vendor>
+         <memory id="Flash" type="Flash" size="64" is_ro="true" can_program="true"/>
+         <memory id="RAM" type="RAM" size="16"/>
+         <memoryInstance id="PROGRAM_FLASH" derived_from="Flash" location="0x00000000" size="0x00010000"
+                         driver="FTFA_1K.cfx"/>
+         <memoryInstance id="SRAM" derived_from="RAM" location="0x1ffff000" size="0x00004000"/>
+         <memoryInstance id="USB_RAM" derived_from="RAM" location="0x400fe000" size="0x00000200"/>
+      </chip>
+      <processor>
+         <name gcc_name="cortex-m0plus">Cortex-M0+</name>
+         <family>Cortex-M</family>
+      </processor>
+   </info>
+</infoList>

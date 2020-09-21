@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chips chipVendor="NXP" family="KV1x">
+   <chip name="MKV10Z32xxx7" flash="32"/>
+</chips>

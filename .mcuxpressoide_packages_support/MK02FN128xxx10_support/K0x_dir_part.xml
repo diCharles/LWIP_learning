@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chips chipVendor="NXP" family="K0x" vendorURL="http://www.nxp.com"
+       chipURL="http://www.nxp.com/kinetis">
+   <chip name="MK02FN128xxx10" xml_file="MK02F12810_internal.xml"
+         chipURL="http://www.nxp.com/kinetis"/>
+</chips>

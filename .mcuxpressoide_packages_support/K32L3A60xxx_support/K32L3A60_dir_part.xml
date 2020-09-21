@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chips chipVendor="NXP" family="K32L3A60" vendorURL="http://www.nxp.com" chipURL="">
+   <chip name="K32L3A60xxx" xml_file="K32L3A60_internal.xml" chipURL=""/>
+</chips>

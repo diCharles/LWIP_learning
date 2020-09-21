@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE infoList
+  SYSTEM "crt_infolist.dtd">
+<infoList vendor="NXP">
+   <info name="LPC832" chip="LPC832">
+      <chip>
+         <name>LPC832</name>
+         <family>LPC83x</family>
+         <vendor>NXP</vendor>
+         <memory id="Flash" type="Flash" size="16" is_ro="true" can_program="true"/>
+         <memory id="RAM" type="RAM" size="4"/>
+         <memoryInstance id="PROGRAM_FLASH" derived_from="Flash" location="0x00000000" size="0x00004000"
+                         driver="LPC800_16.cfx"/>
+         <memoryInstance id="SRAM" derived_from="RAM" location="0x10000000" size="0x00000fe0"/>
+         <memoryInstance id="IAP_SRAM" derived_from="RAM" location="0x10000fe0" size="0x00000020"/>
+      </chip>
+      <processor>
+         <name gcc_name="cortex-m0plus">Cortex-M0+</name>
+         <family>Cortex-M</family>
+      </processor>
+   </info>
+</infoList>

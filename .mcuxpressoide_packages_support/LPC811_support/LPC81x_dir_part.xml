@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chips chipVendor="NXP" family="LPC81x" vendorURL="http://www.nxp.com" chipURL="">
+   <chip name="LPC811" xml_file="LPC811_internal.xml" chipURL=""/>
+</chips>

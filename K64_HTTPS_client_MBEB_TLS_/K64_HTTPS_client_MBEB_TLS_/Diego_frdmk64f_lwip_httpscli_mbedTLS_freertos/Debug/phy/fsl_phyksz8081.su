@@ -1,0 +1,6 @@
+fsl_phyksz8081.c:35:10:PHY_KSZ8081_Init	40	static
+fsl_phyksz8081.c:122:10:PHY_KSZ8081_Write	16	static
+fsl_phyksz8081.c:127:10:PHY_KSZ8081_Read	16	static
+fsl_phyksz8081.c:132:10:PHY_KSZ8081_EnableLoopback	24	static
+fsl_phyksz8081.c:191:10:PHY_KSZ8081_GetLinkStatus	24	static
+fsl_phyksz8081.c:216:10:PHY_KSZ8081_GetLinkSpeedDuplex	32	static

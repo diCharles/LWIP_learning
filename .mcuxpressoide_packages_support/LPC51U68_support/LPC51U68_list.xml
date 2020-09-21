@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chips chipVendor="NXP" family="LPC51U68">
+   <chip name="LPC51U68" flash=""/>
+</chips>

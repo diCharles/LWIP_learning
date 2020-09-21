@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Diego_frdmk64f_lwip_httpscli_mbedTLS_freertos&apos;" deleteContents="false" description="Delete resource &apos;Diego_frdmk64f_lwip_httpscli_mbedTLS_freertos&apos;" element1="/Diego_frdmk64f_lwip_httpscli_mbedTLS_freertos" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1600710736428"/>
+</session>

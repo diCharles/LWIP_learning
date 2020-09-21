@@ -1,0 +1,6 @@
+uart_adapter.c:218:19:HAL_UartInit	32	static
+uart_adapter.c:291:19:HAL_UartDeinit	8	static
+uart_adapter.c:312:19:HAL_UartReceiveBlocking	8	static
+uart_adapter.c:334:19:HAL_UartSendBlocking	8	static
+uart_adapter.c:355:19:HAL_UartEnterLowpower	8	static
+uart_adapter.c:362:19:HAL_UartExitLowpower	8	static

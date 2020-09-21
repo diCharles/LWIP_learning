@@ -1,0 +1,14 @@
+md4.c:75:6:mbedtls_md4_init	8	static
+md4.c:80:6:mbedtls_md4_free	8	static
+md4.c:88:6:mbedtls_md4_clone	8	static
+md4.c:97:5:mbedtls_md4_starts_ret	0	static
+md4.c:111:6:mbedtls_md4_starts	8	static
+md4.c:118:5:mbedtls_internal_md4_process	88	static
+md4.c:241:6:mbedtls_md4_process	8	static
+md4.c:252:5:mbedtls_md4_update_ret	32	static
+md4.c:304:6:mbedtls_md4_update	8	static
+md4.c:323:5:mbedtls_md4_finish_ret	24	static
+md4.c:358:6:mbedtls_md4_finish	8	static
+md4.c:370:5:mbedtls_md4_ret	112	static
+md4.c:395:6:mbedtls_md4	8	static
+md4.c:446:5:mbedtls_md4_self_test	56	static

@@ -1,0 +1,5 @@
+fsl_str.c:250:13:PrintOutputdifFobpu	40	static
+fsl_str.c:489:17:ScanIsWhiteSpace	0	static
+fsl_str.c:499:17:ScanIgnoreWhiteSpace	16	static
+fsl_str.c:737:5:StrFormatPrintf	136	static
+fsl_str.c:1317:5:StrFormatScanf	72	static
